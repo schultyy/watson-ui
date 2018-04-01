@@ -3,6 +3,7 @@
   width: 1000px;
   height: 100%;
   margin-left: 5px;
+  margin-top: 15px;
   background-color: #673AB7;
 
 }
@@ -10,10 +11,12 @@
 .file-detail h1 {
   font-family: 'Courier New', Courier, monospace;
   background: none;
+  font-weight: lighter;
 }
 
 .file-detail h3 {
   background: none;
+  font-weight: lighter;
 }
 
 .file-detail ul {
@@ -21,7 +24,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow-x: scroll;
+  overflow-x: auto;
   height: 300px;
 }
 
@@ -44,6 +47,7 @@
   flex-shrink: 0;
   flex-basis: 4%;
   display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .file-detail ul li .line {
@@ -51,4 +55,6 @@
   white-space: nowrap;
   display: inline-block;
   background-color: #757575;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
