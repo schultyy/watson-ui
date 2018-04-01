@@ -1,0 +1,20 @@
+.file-list {
+  min-width: 150px;
+  max-width: 300px;
+}
+
+.file-list ul {
+  list-style-type: none;
+}
+
+.file-list ul li {
+  border: 1px solid #BDBDBD;
+  background-color: #673AB7;
+  margin: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.file-list ul li:hover {
+  background-color: #FF5722;
+}
