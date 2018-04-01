@@ -1,0 +1,54 @@
+.file-detail {
+  display: block;
+  width: 1000px;
+  height: 100%;
+  margin-left: 5px;
+  background-color: #673AB7;
+
+}
+
+.file-detail h1 {
+  font-family: 'Courier New', Courier, monospace;
+  background: none;
+}
+
+.file-detail h3 {
+  background: none;
+}
+
+.file-detail ul {
+  background: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+  height: 300px;
+}
+
+.file-detail ul li {
+  margin-left: 5px;
+  color: #212121;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.file-detail ul li .lineNumber {
+  font-size: 16px;
+  background-color: #BDBDBD;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 4%;
+  display: inline-block;
+}
+
+.file-detail ul li .line {
+  overflow-x: visible;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: #757575;
+}
