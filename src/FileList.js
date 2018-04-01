@@ -3,13 +3,16 @@ import './FileList.css';
 
 export default class FileList extends React.Component {
   render() {
+    const { files, onFileSelected } = this.props;
+
     return (
       <div className="file-list">
         <ul>
-          <li>File 1</li>
-          <li>File 2</li>
-          <li>File 3</li>
-          <li>File 4</li>
+          {files.map((file) => (
+            <li key={file.id}>
+              <button onClick={() => onFileSelected(file.id)}>{file.name}</button>
+            </li>
+          ))}
         </ul>
       </div>
     );
