@@ -5,6 +5,16 @@ export default class FileList extends React.Component {
   render() {
     const { files, onFileSelected } = this.props;
 
+    if(files.length === 0) {
+      return (
+        <div className="file-list">
+          <ul>
+            <li>No files available</li>
+          </ul>
+        </div>
+      );
+    }
+
     return (
       <div className="file-list">
         <ul>
