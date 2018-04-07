@@ -9,8 +9,6 @@ export default class FileDetail extends React.Component {
       return null;
     }
 
-    console.log(fileDetail);
-
     return (
       <div className="file-detail">
         <h1>{fileDetail.file.name}</h1>

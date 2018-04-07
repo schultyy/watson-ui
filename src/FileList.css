@@ -8,7 +8,7 @@
 
 .file-list ul li {
   border: 1px solid #BDBDBD;
-  background-color: #673AB7;
+  background-color: #FF5252;
   margin: 5px;
   padding: 15px;
   cursor: pointer;
@@ -23,5 +23,5 @@
 }
 
 .file-list ul li:hover {
-  background-color: #FF5722;
+  transform:scale(1.05);
 }
