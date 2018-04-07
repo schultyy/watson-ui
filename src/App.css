@@ -1,6 +1,12 @@
 .App .body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   height: 100%;
+}
+
+.App .body .files {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
